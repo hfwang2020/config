@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "macos-g++-arm64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/gcc/11.2.0/include/c++/11.1.0/"
+            ],
+            "defines": [
+                "LOCAL"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "/opt/homebrew/bin/g++-11",
+            "cStandard": "${default}",
+            "cppStandard": "c++11",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic"
+            ],
+            "intelliSenseMode": "macos-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
